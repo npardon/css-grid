@@ -1,0 +1,47 @@
+/* style sheet to accompany the course css grid
+
+*/
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+    }
+    
+    html{
+        box-sizing: border-box;
+        font-family:"Helvetica", sans-serif;
+        font-weight:400; 
+        font-size: 10px;
+        color: var(--black);
+        text-shadow: 0 2px 0 rgba(0,0,0.07);
+        }
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+            }
+    body{
+                background: #7b4397;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(left, #dc2430, #7b4397);
+                background: -moz-linear-gradient(left, #dc2430, #7b4397);
+                background: -o-linear-gradient(left, #dc2430, #7b4397);
+                background: linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                 
+        }
+        
+        h1,h2,h3,h4,h5,h6 {
+             margin: 0 0 5px 0;
+             
+        .item{
+            display: grid;
+            justify-content:center;
+            align-items:center;
+            border:5px solid rgba(0,0,0.05);
+            border-radius: 5px;
+            font-size: 35px;
+            background-color: #ffc600;
+        }
+        
+        item p{
+            margin: 0 0 5px 0;
+        }
+        
