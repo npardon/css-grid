@@ -2,7 +2,7 @@
     Base style sheet
 */
 
-::root {
+:root {
   --yellow: #FFCC00;
   --black: #272727;
 }
@@ -32,6 +32,7 @@
         
         h1,h2,h3,h4,h5,h6 {
              margin: 0 0 5px 0;
+        }
     .item{
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
